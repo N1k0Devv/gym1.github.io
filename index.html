@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerFit Gym - Kutaisi's Elite Fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">POWER<span>FIT</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#membership">Membership</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary">Join Now</a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">BUILD YOUR</span>
+                <span class="title-line title-accent">LEGACY</span>
+            </h1>
+            <p class="hero-subtitle">Kutaisi's elite fitness destination. Professional equipment, expert coaching, and a community that drives you further.</p>
+            <div class="hero-btns">
+                <a href="#membership" class="btn btn-primary btn-glow">Start Training</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number" data-target="1000">0</span><span class="stat-plus">+</span>
+                <span class="stat-label">Members</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Access</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+                <span class="stat-label">Trainers</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
+                <span class="stat-label">Machines</span>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600" alt="PowerFit Gym Interior">
+                    <div class="experience-badge">
+                        <span class="badge-number">6+</span>
+                        <span class="badge-text">Years of Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-tag">WHO WE ARE</span>
+                    <h2 class="section-title">MORE THAN A <span>GYM</span></h2>
+                    <p class="about-text">Founded in 2018, PowerFit has redefined fitness in Georgia. We provide an environment designed for success, from our industrial-chic aesthetic to our biomechanically perfect equipment.</p>
+                    <ul class="about-features">
+                        <li><span class="feature-icon">✓</span> Technogym Equipment</li>
+                        <li><span class="feature-icon">✓</span> Functional Training Zone</li>
+                        <li><span class="feature-icon">✓</span> Climate Controlled</li>
+                        <li><span class="feature-icon">✓</span> Recovery & Sauna</li>
+                    </ul>
+                    <a href="#gallery" class="btn btn-primary">Take a Tour</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <span class="section-tag">FACILITIES</span>
+            <h2 class="section-title center">OUR <span>SPACE</span></h2>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800" alt="Main Training Floor">
+                    <div class="gallery-overlay">
+                        <h3>Main Training Floor</h3>
+                        <p>500m² of premium equipment</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=600" alt="Cardio Zone">
+                    <div class="gallery-overlay">
+                        <h3>Cardio Zone</h3>
+                        <p>30+ machines</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=600" alt="Free Weights">
+                    <div class="gallery-overlay">
+                        <h3>Free Weights</h3>
+                        <p>Up to 60kg dumbbells</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=600" alt="Functional Zone">
+                    <div class="gallery-overlay">
+                        <h3>Functional Zone</h3>
+                        <p>CrossFit & HIIT area</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600" alt="Recovery Spa">
+                    <div class="gallery-overlay">
+                        <h3>Recovery Spa</h3>
+                        <p>Sauna & massage</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRAINERS SECTION -->
+    <section id="trainers" class="trainers">
+        <div class="container">
+            <span class="section-tag">OUR TEAM</span>
+            <h2 class="section-title center">EXPERT <span>COACHES</span></h2>
+            <div class="trainers-grid">
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=400" alt="David Kipiani">
+                        <div class="trainer-social">
+                            <a href="#">📷</a>
+                            <a href="#">💬</a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>David Kipiani</h3>
+                        <span class="trainer-role">Head Coach</span>
+                        <p>10 years experience in bodybuilding and strength conditioning. Specialized in contest prep.</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400" alt="Ana Beridze">
+                        <div class="trainer-social">
+                            <a href="#">📷</a>
+                            <a href="#">💬</a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Ana Beridze</h3>
+                        <span class="trainer-role">Nutritionist</span>
+                        <p>Certified nutritionist helping clients build sustainable eating habits and lifestyle changes.</p>
+                    </div>
+                </div>
+                <div class="trainer-card">
+                    <div class="trainer-image">
+                        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400" alt="Giorgi Tsereteli">
+                        <div class="trainer-social">
+                            <a href="#">📷</a>
+                            <a href="#">💬</a>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Giorgi Tsereteli</h3>
+                        <span class="trainer-role">Strength Coach</span>
+                        <p>Powerlifting champion focused on raw strength, technique, and injury prevention.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCHEDULE SECTION -->
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <span class="section-tag">WEEKLY CLASSES</span>
+            <h2 class="section-title center">CLASS <span>SCHEDULE</span></h2>
+            <div class="schedule-tabs">
+                <button class="tab-btn active" data-day="monday">Mon</button>
+                <button class="tab-btn" data-day="tuesday">Tue</button>
+                <button class="tab-btn" data-day="wednesday">Wed</button>
+                <button class="tab-btn" data-day="thursday">Thu</button>
+                <button class="tab-btn" data-day="friday">Fri</button>
+                <button class="tab-btn" data-day="saturday">Sat</button>
+                <button class="tab-btn" data-day="sunday">Sun</button>
+            </div>
+            <div class="schedule-content">
+                <div class="schedule-day active" id="monday">
+                    <div class="class-card">
+                        <div class="class-time">07:00 - 08:00</div>
+                        <div class="class-info">
+                            <h4>Morning HIIT</h4>
+                            <p>High intensity cardio blast</p>
+                        </div>
+                        <div class="class-trainer">David K.</div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-time">10:00 - 11:00</div>
+                        <div class="class-info">
+                            <h4>Yoga Flow</h4>
+                            <p>Flexibility & mindfulness</p>
+                        </div>
+                        <div class="class-trainer">Ana B.</div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-time">17:00 - 18:00</div>
+                        <div class="class-info">
+                            <h4>Power Lifting</h4>
+                            <p>Strength fundamentals</p>
+                        </div>
+                        <div class="class-trainer">Giorgi T.</div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-time">19:00 - 20:00</div>
+                        <div class="class-info">
+                            <h4>Boxing Basics</h4>
+                            <p>Cardio & technique</p>
+                        </div>
+                        <div class="class-trainer">David K.</div>
+                    </div>
+                </div>
+                <div class="schedule-day" id="tuesday">
+                    <div class="class-card">
+                        <div class="class-time">08:00 - 09:00</div>
+                        <div class="class-info">
+                            <h4>Spin Class</h4>
+                            <p>High energy cycling</p>
+                        </div>
+                        <div class="class-trainer">Ana B.</div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-time">12:00 - 13:00</div>
+                        <div class="class-info">
+                            <h4>CrossFit WOD</h4>
+                            <p>Workout of the day</p>
+                        </div>
+                        <div class="class-trainer">David K.</div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-time">18:00 - 19:00</div>
+                        <div class="class-info">
+                            <h4>Body Pump</h4>
+                            <p>Full body strength</p>
+                        </div>
+                        <div class="class-trainer">Giorgi T.</div>
+                    </div>
+                </div>
+                <div class="schedule-day" id="wednesday">
+                    <div class="class-card">
+                        <div class="class-time">07:00 - 08:00</div>
+                        <div class="class-info">
+                            <h4>Morning HIIT</h4>
+                            <p>High intensity cardio blast</p>
+                        </div>
+                        <div class="class-trainer">David K.</div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-time">16:00 - 17:00</div>
+                        <div class="class-info">
+                            <h4>Stretching</h4>
+                            <p>Recovery & mobility</p>
+                        </div>
+                        <div class="class-trainer">Ana B.</div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-time">19:00 - 20:00</div>
+                        <div class="class-info">
+                            <h4>Deadlift Club</h4>
+                            <p>Advanced lifting</p>
+                        </div>
+                        <div class="class-trainer">Giorgi T.</div>
+                    </div>
+                </div>
+                <div class="schedule-day" id="thursday">
+                    <div class="class-card">
+                        <div class="class-time">09:00 - 10:00</div>
+                        <div class="class-info">
+                            <h4>Pilates</h4>
+                            <p>Core strength</p>
+                        </div>
+                        <div class="class-trainer">Ana B.</div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-time">17:00 - 18:00</div>
+                        <div class="class-info">
+                            <h4>Functional Training</h4>
+                            <p>Movement patterns</p>
+                        </div>
+                        <div class="class-trainer">David K.</div>
+                    </div>
+                </div>
+                <div class="schedule-day" id="friday">
+                    <div class="class-card">
+                        <div class="class-time">07:00 - 08:00</div>
+                        <div class="class-info">
+                            <h4>Morning HIIT</h4>
+                            <p>High intensity cardio blast</p>
+                        </div>
+                        <div class="class-trainer">David K.</div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-time">18:00 - 19:00</div>
+                        <div class="class-info">
+                            <h4>Friday Pump</h4>
+                            <p>End week strong</p>
+                        </div>
+                        <div class="class-trainer">Giorgi T.</div>
+                    </div>
+                </div>
+                <div class="schedule-day" id="saturday">
+                    <div class="class-card">
+                        <div class="class-time">10:00 - 11:30</div>
+                        <div class="class-info">
+                            <h4>Weekend Warriors</h4>
+                            <p>Extended session</p>
+                        </div>
+                        <div class="class-trainer">All Coaches</div>
+                    </div>
+                    <div class="class-card">
+                        <div class="class-time">14:00 - 15:00</div>
+                        <div class="class-info">
+                            <h4>Open Gym</h4>
+                            <p>Free training time</p>
+                        </div>
+                        <div class="class-trainer">Supervised</div>
+                    </div>
+                </div>
+                <div class="schedule-day" id="sunday">
+                    <div class="class-card">
+                        <div class="class-time">11:00 - 12:00</div>
+                        <div class="class-info">
+                            <h4>Yoga & Recovery</h4>
+                            <p>Rest day session</p>
+                        </div>
+                        <div class="class-trainer">Ana B.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <span class="section-tag">SUCCESS STORIES</span>
+            <h2 class="section-title center">WHAT MEMBERS <span>SAY</span></h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">"PowerFit changed my life. Lost 25kg in 8 months with their incredible trainers. The 24/7 access fits my busy schedule perfectly!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100" alt="Member">
+                            <div>
+                                <h4>Nikoloz Meladze</h4>
+                                <span>Member since 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">"Best gym in Kutaisi, no competition. The equipment is world-class and the atmosphere motivates you to push harder every session."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100" alt="Member">
+                            <div>
+                                <h4>Mariam Janelidze</h4>
+                                <span>Member since 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">★★★★★</div>
+                        <p class="testimonial-text">"David's coaching helped me compete in my first powerlifting meet. The support from the whole team is incredible."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100" alt="Member">
+                            <div>
+                                <h4>Luka Tsiklauri</h4>
+                                <span>VIP Member</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="nav-btn prev">❮</button>
+                    <div class="testimonial-dots"></div>
+                    <button class="nav-btn next">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEMBERSHIP SECTION -->
+    <section id="membership" class="membership">
+        <div class="container">
+            <span class="section-tag">MEMBERSHIPS</span>
+            <h2 class="section-title center">INVEST IN <span>YOURSELF</span></h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic</h3>
+                        <div class="price">
+                            <span class="amount">80</span>
+                            <span class="currency">₾/mo</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="included">✓ Standard Gym Access</li>
+                        <li class="included">✓ Locker Room & Showers</li>
+                        <li class="included">✓ Free WiFi</li>
+                        <li class="excluded">× Trainer Support</li>
+                        <li class="excluded">× Group Classes</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary">Select Plan</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Standard</h3>
+                        <div class="price">
+                            <span class="amount">150</span>
+                            <span class="currency">₾/mo</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="included">✓ 24/7 Keycard Access</li>
+                        <li class="included">✓ All Group Classes</li>
+                        <li class="included">✓ Sauna Recovery Access</li>
+                        <li class="included">✓ 1 Free PT Session</li>
+                        <li class="excluded">× VIP Perks</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary btn-glow">Select Plan</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>VIP Athlete</h3>
+                        <div class="price">
+                            <span class="amount">250</span>
+                            <span class="currency">₾/mo</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="included">✓ All Standard Perks</li>
+                        <li class="included">✓ Unlimited Tanning</li>
+                        <li class="included">✓ Private VIP Locker</li>
+                        <li class="included">✓ Monthly Nutrition Plan</li>
+                        <li class="included">✓ Priority Booking</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary">Select Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <span class="section-tag">QUESTIONS?</span>
+            <h2 class="section-title center">FREQUENTLY <span>ASKED</span></h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>What are your opening hours?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We're open 24/7 for Standard and VIP members with keycard access. Basic members can access the gym from 6:00 AM to 11:00 PM daily. Staff is available from 8:00 AM to 10:00 PM.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Can I freeze my membership?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! You can freeze your membership for up to 2 months per year at no additional cost. Simply notify us at least 3 days before your billing date. Medical freezes are unlimited with documentation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you offer personal training?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We have certified personal trainers available for one-on-one sessions. Packages start at 200₾ for 4 sessions. Standard members get 1 free PT session per month.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Is there a joining fee?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No joining fees, ever! Pay only for your chosen membership tier. We also offer a 7-day free trial for first-time visitors to experience our facilities.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do you have parking available?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we have a private parking lot behind the building with 30 spots available free of charge for all members. VIP members have reserved spots near the entrance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">GET IN TOUCH</span>
+                    <h2 class="section-title">READY TO <span>START?</span></h2>
+                    <p>Visit us today and take the first step towards your fitness goals.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <h4>Location</h4>
+                                <p>15 Rustaveli Avenue, Kutaisi</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+995 431 25 55 55</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@powerfit.ge</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option value="">Select Membership</option>
+                            <option value="basic">Basic - 80₾/mo</option>
+                            <option value="standard">Standard - 150₾/mo</option>
+                            <option value="vip">VIP Athlete - 250₾/mo</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-glow btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">POWER<span>FIT</span></a>
+                    <p>Kutaisi's premier fitness destination since 2018.</p>
+                    <div class="social-links">
+                        <a href="#">📘</a>
+                        <a href="#">📷</a>
+                        <a href="#">🐦</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#about">About Us</a>
+                    <a href="#trainers">Our Team</a>
+                    <a href="#schedule">Schedule</a>
+                    <a href="#membership">Pricing</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <a href="#faq">FAQ</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Get fitness tips & exclusive offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">→</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 PowerFit Gym. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
